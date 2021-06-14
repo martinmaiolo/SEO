@@ -1,0 +1,22 @@
+function bf_images_wrap_schemas( $content ) {
+	// Expresión regular para encontrar las etiquetas <img>
+	$pattern = '/(<img([^>]*)>)/i';
+
+	// Con qué vamos a reemplazar esas etiquetas img. $1 responde a la etiqueta img encontrada, así no perdemos su contenido.
+	$replacement = '<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">$1</div>';
+
+	// En este caso sólo aplicamos el cambio en los single
+	if( is_singular() ){
+	   // run preg_replace() on the single's $content
+	   $content = preg_replace( $pattern, $replacement, $content );
+	}
+
+   // Devolvemos el contenido filtrado
+   return $content;
+}
+
+add_filter('the_content','bf_add_image_itemprop');
+function bf_add_image_itemprop($content) {
+    $content = str_replace('<img','<img itemprop="url"', $content);
+    return $content;
+}
