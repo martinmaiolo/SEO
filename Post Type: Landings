@@ -1,0 +1,69 @@
+function cptui_register_my_cpts_landing() {
+
+	/**
+	 * Post Type: Landings.
+	 */
+
+	$labels = [
+		"name" => __( "Landings", "neve" ),
+		"singular_name" => __( "Landing", "neve" ),
+		"menu_name" => __( "Landings", "neve" ),
+		"all_items" => __( "Todas las landings", "neve" ),
+		"add_new" => __( "Añadir nueva", "neve" ),
+		"add_new_item" => __( "Añadir nueva landing", "neve" ),
+		"edit_item" => __( "Editar landing", "neve" ),
+		"new_item" => __( "Nueva landing", "neve" ),
+		"view_item" => __( "Ver landing", "neve" ),
+		"view_items" => __( "Ver landings", "neve" ),
+		"search_items" => __( "Buscar Landings", "neve" ),
+		"not_found" => __( "No se han encontrado landings", "neve" ),
+		"not_found_in_trash" => __( "No se han encontrado landings en la papelera", "neve" ),
+		"featured_image" => __( "Imagen destacada para esta landing", "neve" ),
+		"set_featured_image" => __( "Establecer imagen destacada para esta landing", "neve" ),
+		"remove_featured_image" => __( "Eliminar imagen destacada para esta landing", "neve" ),
+		"use_featured_image" => __( "Utilizar como imagen destacada para esta landing", "neve" ),
+		"archives" => __( "Archivo de landings", "neve" ),
+		"insert_into_item" => __( "Insertar en la landing", "neve" ),
+		"uploaded_to_this_item" => __( "Subido a esta landing", "neve" ),
+		"filter_items_list" => __( "Filtrar lista de landings", "neve" ),
+		"items_list_navigation" => __( "Navegación de lista de landings", "neve" ),
+		"items_list" => __( "Listado de landings", "neve" ),
+		"attributes" => __( "Atributos de las landings", "neve" ),
+		"name_admin_bar" => __( "Landing", "neve" ),
+		"item_published" => __( "Landing publicada", "neve" ),
+		"item_published_privately" => __( "Landing publicada como privada", "neve" ),
+		"item_reverted_to_draft" => __( "Landing devuelta a borrador", "neve" ),
+		"item_scheduled" => __( "Landing programada", "neve" ),
+		"item_updated" => __( "Landing actualizada", "neve" ),
+	];
+
+	$args = [
+		"label" => __( "Landings", "neve" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"delete_with_user" => false,
+		"exclude_from_search" => true,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => [ "slug" => "landing", "with_front" => true ],
+		"query_var" => false,
+		"menu_icon" => "dashicons-airplane",
+		"supports" => [ "title", "editor", "thumbnail", "custom-fields", "page-attributes", "post-formats" ],
+		"taxonomies" => [ "category" ],
+		"show_in_graphql" => false,
+	];
+
+	register_post_type( "landing", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_landing' );
