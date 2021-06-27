@@ -1,0 +1,23 @@
+https://www.techboto.com/manually-add-structured-data-wordpress-without-plugin-schema-markup/
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [{
+	"@type": "ListItem",
+	"position": 1,
+	"name": "<?php echo get_bloginfo(); ?>",
+	"item": "<?php echo get_home_url() ?>"
+	},{
+	"@type": "ListItem",
+	"position": 2,
+	"name": "<?php foreach((get_the_category()) as $category) { echo str_replace("Categoty ","",$category->cat_name) . ' '; } ?>",
+	"item": "<?php foreach((get_the_category()) as $category) { $category->cat_name . ' '; } echo get_site_url().'/category/'.strtolower(str_replace(" ","-",$category->cat_name));?>"
+	},{
+	"@type": "ListItem",
+	"position": 3,
+	"name": "<?php echo get_the_title(); ?>"
+	}]
+}
+</script>
