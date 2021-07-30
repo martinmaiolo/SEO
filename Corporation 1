@@ -1,0 +1,44 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "SE Ranking",
+    "alternateName": "Seranking",
+    "url": "https://seranking.com/",
+    "logo": "https://seranking.com/blog/wp-content/themes/se_theme/images/svg/logo.svg",
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1 415 704 4387",
+            "contactType": "customer service",
+            "contactOption": "TollFree",
+            "areaServed": "US",
+            "availableLanguage": [
+                "en",
+                "es",
+                "fr",
+                "Italian"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+44 20 3868 1173",
+            "contactType": "customer service",
+            "contactOption": "TollFree",
+            "areaServed": "GB",
+            "availableLanguage": [
+                "en",
+                "es",
+                "fr",
+                "Italian"
+            ]
+        }
+    ],
+    "sameAs": [
+        "https://www.facebook.com/serankingcom",
+        "https://twitter.com/SERanking",
+        "https://www.youtube.com/channel/UCtUeek7hmkByxGbiOZNgB3w",
+        "https://www.linkedin.com/company/se-ranking/"
+    ]
+}
+</script>
