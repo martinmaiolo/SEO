@@ -1,0 +1,28 @@
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Corporation",
+    "name": "Semrush",
+    "description": "Semrush - online visibility management and content marketing SaaS platform",
+    "logo": "https://cdn.semrush.com/__static__/semrush-logo-700.jpg",
+    "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "addressLocality": "Boston",
+        "addressRegion": "MA",
+        "postalCode": "02199",
+        "streetAddress": "800 Boylston Street, Suite 2475"
+    },
+    "email": "mailto:mail@semrush.com",
+    "telephone": "+1-800-815-9959",
+    "url": "https://www.semrush.com/",
+    "sameAs": [
+        "https://twitter.com/semrush_es",
+        "https://www.facebook.com/SemrushEs/",
+        "https://www.linkedin.com/showcase/10240990",
+        "https://instagram.com/semrush/",
+        "https://www.youtube.com/channel/UC45BAC-xvkj2bWiDxq0nY4w",
+        "https://www.pinterest.com/semrush/"
+    ]
+}
+</script>
