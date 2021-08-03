@@ -1,0 +1,86 @@
+<script type="application/ld+json">
+{
+    "@type": "Article",
+    "@id": "https://www.botify.com/blog/seo-data-unification#article",
+    "isPartOf": {
+        "@id": "https://www.botify.com/blog/seo-data-unification#webpage"
+    },
+    "author": {
+        "@id": "https://www.botify.com/#/schema/person/e4f7ac036d15a0f47916d0f2a3a8fdf0"
+    },
+    "headline": "6 Ways To Benefit From Unifying Your SEO Data",
+    "datePublished": "2019-10-15T00:00:00+00:00",
+    "dateModified": "2020-09-09T22:48:06+00:00",
+    "mainEntityOfPage": {
+        "@id": "https://www.botify.com/blog/seo-data-unification#webpage"
+    },
+    "publisher": {
+        "@id": "https://www.botify.com/#organization"
+    },
+    "image": {
+        "@id": "https://www.botify.com/blog/seo-data-unification#primaryimage"
+    },
+    "articleSection": "Content SEO,Data Unification,Simplifying Complexity,Technical SEO",
+    "inLanguage": "en-US"
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+    "@type": "Organization",
+    "@id": "https://www.botify.com/#organization",
+    "name": "Botify",
+    "url": "https://www.botify.com/",
+    "sameAs": [
+        "https://www.facebook.com/botify/",
+        "https://www.linkedin.com/company/botify/",
+        "https://twitter.com/botify"
+    ],
+    "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.botify.com/#logo",
+        "inLanguage": "en-US",
+        "url": "https://www.botify.com/wp-content/uploads/2020/01/botify-logo.svg",
+        "width": 110,
+        "height": 49,
+        "caption": "Botify"
+    },
+    "image": {
+        "@id": "https://www.botify.com/#logo"
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@type": "ImageObject",
+    "@id": "https://www.botify.com/#primaryimage",
+    "inLanguage": "en-US",
+    "url": "https://www.botify.com/wp-content/uploads/2020/01/botify-new-logo.jpg",
+    "width": 1920,
+    "height": 1100,
+    "caption": "Botify rebrand"
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@type": "WebSite",
+    "@id": "https://www.botify.com/#website",
+    "url": "https://www.botify.com/",
+    "name": "Botify",
+    "description": "Search: Results. Enterprise SEO Platform",
+    "publisher": {
+        "@id": "https://www.botify.com/#organization"
+    },
+    "potentialAction": [
+        {
+            "@type": "SearchAction",
+            "target": "https://www.botify.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    ],
+    "inLanguage": "en-US"
+}
+</script>
