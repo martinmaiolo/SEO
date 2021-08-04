@@ -1,0 +1,33 @@
+<script type="application/ld+json">
+{
+    "@type": "Article",
+    "@id": "https://wordlift.io/blog/en/schema-markup-to-boost-local-seo/#article",
+    "isPartOf": {
+        "@id": "https://wordlift.io/blog/en/schema-markup-to-boost-local-seo/#webpage"
+    },
+    "author": {
+        "@id": "https://wordlift.io/blog/en/#/schema/person/574352082cc71dab8d164410f1cabe0a"
+    },
+    "headline": "Schema Markup to Boost Local SEO",
+    "datePublished": "2020-07-28T08:54:03+00:00",
+    "dateModified": "2020-08-10T07:49:54+00:00",
+    "mainEntityOfPage": {
+        "@id": "https://wordlift.io/blog/en/schema-markup-to-boost-local-seo/#webpage"
+    },
+    "wordCount": 1491,
+    "publisher": {
+        "@id": "https://wordlift.io/blog/en/#organization"
+    },
+    "image": {
+        "@id": "https://wordlift.io/blog/en/schema-markup-to-boost-local-seo/#primaryimage"
+    },
+    "thumbnailUrl": "https://mk0wordliftblog7j5te.kinstacdn.com/wp-content/uploads/sites/3/2020/07/Untitled-presentation-11.png",
+    "articleSection": [
+        "AI &amp; Machine Learning",
+        "seo",
+        "Tips",
+        "wordlift"
+    ],
+    "inLanguage": "en-US"
+}
+</script>
