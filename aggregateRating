@@ -1,0 +1,55 @@
+			<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Product",
+  "name" : "Kedarkantha Trek",
+  "image" : "https://www.himalayanhikers.in/wp-content/uploads/2019/05/kedarkantha_basecamp.jpg",
+  "description" : "Kedarkantha Trek height is around 3,800 meters. And, the Kedarkantha trek offers 6 days vacation with the taste of perfect adventure and jaw-dropping experiences. Therefore, Kedarkantha trek is the prominent winter trek! It has got unmatched beauty in winters. The trail hides in a thick blanket of snow almost winter.",
+  "url" : "https://www.himalayanhikers.in/kedarkantha",
+  "brand" : {
+    "@type" : "Brand",
+    "name" : "Himalayan Hikers",
+    "logo" : "https://himalayanhikers.in/wp-content/uploads/2019/09/logo.png"
+  },
+  "offers" : {
+    "priceCurrency" : "INR",
+    "@type" : "Offer",
+    "price" : "7500",
+    "availability" : "inStock"
+    
+  },
+  "aggregateRating" : {
+    "@type" : "AggregateRating",
+    "ratingValue" : "5",
+    "bestRating" : "5",
+    "ratingCount" : "2679"
+  },
+  "review" : {
+    "@type" : "Review",
+    "author" : {
+      "@type" : "Person",
+      "name" : "Mansi Nagda"
+    },
+    "datePublished" : "2019-11-20",
+    "reviewRating" : {
+      "@type" : "Rating",
+      "ratingValue" : "5"
+    },
+    "reviewBody" : "Amazing experience and best part was the service
+Better ng vegetarian I always had this doubt of good food but they provide superb and amazing quality food and that’s not it
+A such an altitude where we won’t even get water to drink we would get food like almost atleast 4 times a day ( freshly cooked not packaged )
+
+Being a first timer and beginner in trekking we could complete it with utmost ease
+
+The guide and the staff is amazing
+
+I was in constant touch with Kuldeep ji and right from our pick up from Dehradun station and drop to.Dehradun station we did not feel uncomfortable or anything
+
+It was the best experience
+
+Also when we went there were many trekeking groups which were closed due to government regulations for their problems
+
+But Himalayan Hikers have their own property and you can totally rely on them"
+  }
+}
+</script>
