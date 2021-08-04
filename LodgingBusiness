@@ -1,0 +1,176 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@id": "http://data.wordlift.io/[entity-name]",
+        "@type": ["LodgingBusiness"],
+        "description": "Here goes the description",
+        "mainEntityOfPage": "https://www.happywordliftclient.com",
+        "image": [
+            { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/2011/07/img-19az-1200x675.jpg", "width": 1200, "height": 675 },
+            { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/2011/07/img-19az-1200x900.jpg", "width": 1200, "height": 900 },
+            { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/2011/07/img-19az.jpg", "width": 1280, "height": 960 }
+        ],
+        "name": "Erperheide",
+        "alternateName": ["Name 1", "Name 2"],
+        "url": null,
+        "address": { "addressLocality": "Peer", "addressRegion": "Vlaanderen", "postalCode": "3990", "streetAddress": "Erperheidestraat 2", "addressCountry": "BE" },
+        "telephone": "+00 00 00 00 00",
+        "priceRange": "$$$",
+        "hasMap": "https://maps.google.com/?cid=000000000000000000",
+        "geo": { "@type": "GeoCoordinates", "latitude": "51.1294671", "longitude": "5.503666599999974" },
+        "potentialAction": {
+            "@type": "ReserveAction",
+            "target": {
+                "url": "https://www.happywordliftclient.com/book-it-from-here",
+                "inLanguage": "en",
+                "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/IOSPlatform", "http://schema.org/AndroidPlatform"]
+            },
+            "result": { "@type": "LodgingReservation", "name": "happy client website", "provider": { "@id": "http://data.wordlift.io/[entity-name]" } }
+        },
+        "amenityFeature": [
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Amusementshal", "url": "https://www.happywordliftclient.com/amusementshal/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Animatieprogramma (hele jaar)", "url": "https://www.happywordliftclient.com/animatieprogramma-hele-jaar/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Boogschieten", "url": "https://www.happywordliftclient.com/boogschieten/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Bowling", "url": "https://www.happywordliftclient.com/bowling/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Broodjesservice", "url": "https://www.happywordliftclient.com/broodjesservice/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Buiten speeltuin", "url": "https://www.happywordliftclient.com/speeltuin/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Cafe/Bar", "url": "https://www.happywordliftclient.com/cafe-bar/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Culinaire arrangementen", "url": "https://www.happywordliftclient.com/huren-fondue-gourmet/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Duiken / duiklessen", "url": "https://www.happywordliftclient.com/duiken-duiklessen/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Fietsverhuur", "url": "https://www.happywordliftclient.com/fietsverhuur/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Fitness", "url": "https://www.happywordliftclient.com/fitness/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Golfslagbad", "url": "https://www.happywordliftclient.com/golfslagbad/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Green Key", "url": "https://www.happywordliftclient.com/green-key/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Huisdieren welkom", "url": "https://www.happywordliftclient.com/huisdieren-welkom/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Indoor badmintonbaan", "url": "https://www.happywordliftclient.com/indoor-badmintonbaan/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Indoor speeltuin", "url": "https://www.happywordliftclient.com/indoor-speelparadijs/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Indoor tennisbaan", "url": "https://www.happywordliftclient.com/indoor-tennisbaan/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Kano-en/of waterfietsverhuur", "url": "https://www.happywordliftclient.com/kano-waterfietsverhuur/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Kinder Academies", "url": "https://www.happywordliftclient.com/kinder-academies/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Kinderbad", "url": "https://www.happywordliftclient.com/kinderbad/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Kinderboerderij/dierenweide", "url": "https://www.happywordliftclient.com/kinderboerderij/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Kinderbungalow", "url": "https://www.happywordliftclient.com/kinderbungalow/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Klimmen en abseilen", "url": "https://www.happywordliftclient.com/klimmen-abseilen/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Landelijk/platteland", "url": "https://www.happywordliftclient.com/landelijk/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Lasergamen", "url": "https://www.happywordliftclient.com/lasergamen/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Luxe bungalow", "url": "https://www.happywordliftclient.com/luxe-bungalow/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Manege/Pony rijden", "url": "https://www.happywordliftclient.com/manege-pony-rijden/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Midgetgolf", "url": "https://www.happywordliftclient.com/midgetgolf/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Mindervalidenbungalow", "url": "https://www.happywordliftclient.com/mindervalidenbungalow/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Ontbijtservice", "url": "https://www.happywordliftclient.com/ontbijtservice/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Openlucht zwembad", "url": "https://www.happywordliftclient.com/openlucht-zwembad/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Orry en Friends", "url": "https://www.happywordliftclient.com/orry-friends/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Outdoor tennisbaan", "url": "https://www.happywordliftclient.com/outdoor-tennisbaan/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Overdekt zwembad", "url": "https://www.happywordliftclient.com/overdekt-zwembad/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Restaurant(s)", "url": "https://www.happywordliftclient.com/restaurant/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Sauna bungalow", "url": "https://www.happywordliftclient.com/sauna-bungalow/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Sauna/Turks stoombad", "url": "https://www.happywordliftclient.com/sauna-turks-stoombad/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Snackbar", "url": "https://www.happywordliftclient.com/snackbar/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Stroomversnelling", "url": "https://www.happywordliftclient.com/stroomversnelling/" },
+            {
+                "@type": "LocationFeatureSpecification",
+                "value": "True",
+                "name": "Subtropisch zwembad",
+                "url": "https://www.happywordliftclient.com/subtropisch-zwembad/",
+                "description": "Vakantieparken in Nederland met een subtropisch zwembad\u00a0zijn populair! Of u nu een weekend of een week op vakantie gaat, in de winter of in de zomer. Zonder lange reistijden geniet u\u00a0van warme temperaturen en veel zwem- en waterpret! Trotseer de golven in het golfslagbad, suis van de waterglijbaan, laat u meevoeren op de stroming en&hellip;"
+            },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Supermarkt", "url": "https://www.happywordliftclient.com/supermarkt/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Tokkelbaan", "url": "https://www.happywordliftclient.com/tokkelbaan/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Vissen", "url": "https://www.happywordliftclient.com/vissen/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Waterglijbaan", "url": "https://www.happywordliftclient.com/waterglijbaan/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Whirlpool", "url": "https://www.happywordliftclient.com/whirlpool/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "WiFi bungalows (betaald)", "url": "https://www.happywordliftclient.com/wifi-bungalows/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "WiFi centrale voorziening (gratis)", "url": "https://www.happywordliftclient.com/wifi-centrale-voorziening/" },
+            { "@type": "LocationFeatureSpecification", "value": "True", "name": "Wildwaterbaan", "url": "https://www.happywordliftclient.com/wildwaterbaan/" }
+        ],
+        "brand": [
+            {
+                "@type": "Brand",
+                "name": "Center Parcs",
+                "url": "https://www.happywordliftclient.com/center-parcs/",
+                "description": "Welk\u00a0Center Parcs park u ook kiest, nergens vindt u zoveel speel- en waterpret op\u00a0\u00e9\u00e9n plek! Dolle waterpret in het tropisch zwembad,\u00a0ravotten in de binnen- en buitenspeeltuin, samen sporten, dieren verzorgen en op avontuur met\u00a0Orry en zijn vrienden. Na een druk dagje kunt u gezellig eten in de Park Plaza! Oftewel, verveling is op alle\u00a0Center Parcs&hellip;"
+            }
+        ],
+        "location": [
+            {
+                "@context": "http://schema.org",
+                "@type": "Place",
+                "@id": "https://www.happywordliftclient.com/locations",
+                "additionalType": "TouristDestination",
+                "name": "Peer",
+                "sameAs": ["http://www.wikidata.org/entity/Q21764310", "http://sws.geonames.org/2789232", "http://data.wordlift.io/wl00000/entity/peer"],
+                "containedInPlace": [
+                    {
+                        "@context": "http://schema.org",
+                        "@id": "http://data.wordlift.io/wl00000/entity/peer_2",
+                        "@type": "Place",
+                        "description": "",
+                        "image": [
+                            { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/wl/2019/06/Peer_centre_01-1200x675.jpg", "width": 1200, "height": 675 },
+                            { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/wl/2019/06/Peer_centre_01-1200x900.jpg", "width": 1200, "height": 900 },
+                            { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/wl/2019/06/Peer_centre_01-1200x1200.jpg", "width": 1200, "height": 1200 },
+                            { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/wl/2019/06/Peer_centre_01.jpg", "width": 2048, "height": 1533 }
+                        ],
+                        "name": "Peer",
+                        "sameAs": ["http://www.wikidata.org/entity/Q736085", "http://rdf.freebase.com/m.055ql2", "http://g.co/kg/m/055ql2", "http://sws.geonames.org/2789233", "http://dbpedia.org/resource/Peer,_Belgium"],
+                        "geo": { "@type": "GeoCoordinates", "latitude": 51.132800000000003, "longitude": 5.4535999999999998 },
+                        "containedInPlace": [
+                            {
+                                "@context": "http://schema.org",
+                                "@id": "http://data.wordlift.io/wl00000/entity/limburg_2",
+                                "@type": "Place",
+                                "description": "",
+                                "image": [
+                                    { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/wl/2019/06/Brasserie_de_Markt_-_Hasselt-1200x675.jpg", "width": 1200, "height": 675 },
+                                    { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/wl/2019/06/Brasserie_de_Markt_-_Hasselt-1200x900.jpg", "width": 1200, "height": 900 },
+                                    { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/wl/2019/06/Brasserie_de_Markt_-_Hasselt-1200x1200.jpg", "width": 1200, "height": 1200 },
+                                    { "@type": "ImageObject", "url": "https://www.happywordliftclient.com/wp-content/uploads/wl/2019/06/Brasserie_de_Markt_-_Hasselt.jpg", "width": 2048, "height": 1365 }
+                                ],
+                                "name": "Limburg",
+                                "sameAs": ["http://www.wikidata.org/entity/Q1095", "http://rdf.freebase.com/m.0hzmv", "http://g.co/kg/m/0hzmv", "http://sws.geonames.org/2792347", "http://dbpedia.org/resource/Limburg_(Belgium)"],
+                                "geo": { "@type": "GeoCoordinates", "latitude": 50.983333333333, "longitude": 5.3833333333333 },
+                                "containedInPlace": [
+                                    {
+                                        "@context": "http://schema.org",
+                                        "@id": "http://data.wordlift.io/wl00000/entity/vlaams_gewest",
+                                        "@type": "Place",
+                                        "description": "",
+                                        "name": "Vlaams Gewest",
+                                        "sameAs": ["http://www.wikidata.org/entity/Q9337", "http://sws.geonames.org/3337388", "http://dbpedia.org/resource/Flemish_Region"],
+                                        "geo": { "@type": "GeoCoordinates", "latitude": 51, "longitude": 4.5 },
+                                        "containedInPlace": [
+                                            {
+                                                "@context": "http://schema.org",
+                                                "@id": "http://data.wordlift.io/wl00000/entity/belgie",
+                                                "@type": "Place",
+                                                "description": "",
+                                                "name": "Belgi\u00eb",
+                                                "sameAs": ["http://www.wikidata.org/entity/Q31", "http://rdf.freebase.com/m.0154j", "http://g.co/kg/m/0154j", "http://sws.geonames.org/2802361", "http://dbpedia.org/resource/Belgium"],
+                                                "geo": { "@type": "GeoCoordinates", "latitude": 50.641111111111002, "longitude": 4.6680555555555996 }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "aggregateRating": { "@type": "AggregateRating", "reviewCount": 22, "ratingCount": 22, "bestRating": 10, "worstRating": 1, "ratingValue": 8.9000000000000004 },
+        "review": [
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Name Surname" },
+                "reviewBody": "Wij hebben genoten vorig jaar herfst, volgende week gaan wij naar naar Port Zelande.",
+                "reviewRating": { "@type": "Rating", "bestRating": 10, "worstRating": 1, "ratingValue": 9 }
+            },
+            {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Name Surname" },
+                "reviewBody": "Center Parcs is het meest kindvriendelijke park, waar vakantie echt is",
+                "reviewRating": { "@type": "Rating", "bestRating": 10, "worstRating": 1, "ratingValue": 10 }
+            }
+        ]
+    }
+]
