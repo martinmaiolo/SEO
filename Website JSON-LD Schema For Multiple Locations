@@ -1,0 +1,102 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Monty's Grail Brewery",
+  "image": "https://www.montysgrail.com/profile.png",
+  "@id": "https://www.montysgrail.com",
+  "url": "https://www.montysgrail.com",
+  "location":
+   [
+    {
+     "@type": "Brewery",
+     "parentOrganization": {
+      "name": "Monty's Grail Brewery"
+     },
+     "name" : "Monty's Grail Brewery - Downtown",
+     "image": "https://www.montysgrail.com/profile.png",
+     "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "MyTown",
+     "addressRegion": "Province",
+     "postalCode": "N0N1E0",
+     "streetAddress": "456 Main St"
+     },
+     "geo": {
+       "@type": "GeoCoordinates",
+       "latitude": 43.9705366,
+       "longitude": -81.4076207
+     },
+     "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+       "Monday",
+       "Tuesday",
+       "Wednesday",
+       "Sunday"
+      ],
+      "opens": "11:00",
+      "closes": "23:00"
+      },{
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Thursday",
+      "Friday",
+      "Saturday"
+     ],
+     "opens": "11:00",
+     "closes": "02:00"
+     }],
+    "telephone" : "+1 555-555-5555",
+    "sameAs": "https://www.facebook.com/montysdowntown",
+    "priceRange": "$$",
+    "servesCuisine": "Craft Beer"
+   },
+   {
+    "@type": "Brewery",
+    "parentOrganization": {
+    "name": "Monty's Grail Brewery"
+    },
+    "name" : "Monty's Grail Brewery - Midtown",
+    "image": "https://www.montysgrail.com/profile.png",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "MyTown",
+     "addressRegion": "Province",
+     "postalCode": "N0N1E0",
+     "streetAddress": "123 Main Rd"
+    },
+    "geo": {
+     "@type": "GeoCoordinates",
+      "latitude": 43.980443,
+      "longitude": -81.3569621
+     },
+    "openingHoursSpecification": [{
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+     "Monday",
+     "Tuesday",
+     "Wednesday",
+     "Sunday"
+    ],
+    "opens": "11:00",
+    "closes": "23:00"
+    },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+     "Thursday",
+     "Friday",
+     "Saturday"
+    ],
+    "opens": "11:00",
+    "closes": "02:00"
+    }],
+    "telephone" : "+1 555-555-5555",
+    "sameAs": "https://www.facebook.com/montysmidtown",
+    "priceRange": "$$",
+    "servesCuisine": "Craft Beer"
+    }
+   ],
+  "description": "The best brewery and pub in MyTown"
+ }
+</script>
