@@ -1,0 +1,41 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "url": "https://pacificcarpetcleaning.net/",
+    "sameAs": [
+        "https://www.facebook.com/pacificcarpetandtilecleaning/",
+        "https://www.linkedin.com/in/jeff-bryant-ba9a3461/detail/recent-activity/shares/",
+        "https://www.youtube.com/watch?v=YpqFbbzGpIs",
+        "https://twitter.com/pacificnewport1"
+    ],
+    "@id": "https://pacificcarpetcleaning.net/",
+    "name": "Pacific Carpet &amp; Tile Cleaning",
+    "logo": "https://pacificcarpetcleaning.net/wp-content/uploads/2018/05/Pacific-Floor-Carpet-Cleaning-Crew-in-Newport-Beach.jpg",
+    "image": "https://pacificcarpetcleaning.net/wp-content/uploads/2018/05/Pacific-Carpet-Tile-Cleaning-home-page-Newport-Beach-CA.jpg",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lido Isle,",
+        "addressLocality": "Newport Beach",
+        "postalCode": "92660",
+        "addressRegion": "California",
+        "addressCountry": "US"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "33.667176",
+        "longitude": "-117.8585882"
+    },
+    "openingHours": [
+        "Mo 7:00 AM-10:00 PM",
+        "Tu 7:00 AM-10:00 PM",
+        "We 7:00 AM-10:00 PM",
+        "Th 7:00 AM-10:00 PM",
+        "Fr 7:00 AM-10:00 PM",
+        "Sa 8:00 AM-7:00 PM",
+        "Su 8:00 AM-1:00 PM"
+    ],
+    "email": "info@pacificcarpetcleaning.net",
+    "telePhone": "(949) 545-5205"
+}
+</script>
