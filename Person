@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+    "@type": "Person",
+    "@id": "https://wordlift.io/blog/en/#/schema/person/574352082cc71dab8d164410f1cabe0a",
+    "name": "Andrea Volpini",
+    "image": {
+        "@type": "ImageObject",
+        "@id": "https://wordlift.io/blog/en/#personlogo",
+        "inLanguage": "en-US",
+        "url": "https://secure.gravatar.com/avatar/d2143435f14f2e4007b28f02e5787984?s=96&d=mm&r=pg",
+        "contentUrl": "https://secure.gravatar.com/avatar/d2143435f14f2e4007b28f02e5787984?s=96&d=mm&r=pg",
+        "caption": "Andrea Volpini"
+    }
+}
+</script>
