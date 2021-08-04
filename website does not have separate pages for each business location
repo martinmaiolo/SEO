@@ -1,0 +1,107 @@
+<script type="application/ld+json">
+{
+  "@context": "https://www.schema.org/",
+  "@type": "AutomotiveBusiness",
+  "name": "Your Business Name - Main Office",
+  "url": "https://www.yourwebsite.com/",
+  "@id": "https://www.yourwebsite.com/#AutomotiveBusiness",
+  "logo": "https://www.yourwebsite.com/wp-content/themes/epc/images/logo_home.png",
+  "image": "https://www.yourwebsite.com/wp-content/themes/epc/images/image_home.png",
+  "description": "We are...",
+  "telephone": "111-222-3333",
+  "sameAs": [
+	"https://www.linkedin.com/company/111/",
+        "https://www.facebook.com/111/"],
+  "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+       "Monday",
+       "Tuesday",
+       "Wednesday",
+       "Thursday",
+       "Friday"     
+     ],
+     "opens": "08:00",
+     "closes": "17:00"
+   }],
+  "priceRange": "$$$",
+  "address": {
+	"@type": "PostalAddress",
+	"streetAddress": "111 Best Street, #11",
+	"addressLocality": "City Name",
+	"addressRegion": "TX",
+	"postalCode": "78000",
+	"addressCountry": "USA"
+		},
+  "location": {
+	"@type": "Place",
+	"geo": {
+	"@type": "GeoCoordinates",
+		"latitude": "30.0000",
+		"longitude": "-130.0000"
+			}
+		},
+  "areaServed": [{
+	"@type": "City",
+	"name": ["City 1", "City 2"]
+		}],
+"department": [
+	{
+	"@type": "AutomotiveBusiness",
+	"name": "Your Business Name - Location A",
+	"description": "We are...",
+	"image": "https://www.yourwebsite.com/wp-content/themes/epc/images/image_A.png",
+	"telephone": "222-333-4444",
+        "priceRange": "$$$",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "222 Main Street",
+		"addressLocality": "City A",
+		"addressRegion": "TX",
+		"postalCode": "77000",
+		"addressCountry": "USA"
+		},
+	"location": {
+		"@type": "Place",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "31.0000",
+			"longitude": "-131.0000"
+			}
+		},
+	"areaServed": [{
+		"@type": "City",
+		"name": ["City 3", "City 4"]			
+		}]
+	},
+	{
+	"@type": "AutomotiveBusiness",
+	"name": "Your Business Name - Location B",
+	"description": "We are...",
+	"image": "https://www.yourwebsite.com/wp-content/themes/epc/images/image_B.png",
+	"telephone": "333-444-5555",
+        "priceRange": "$$$",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "333 Super Street",
+		"addressLocality": "City B",
+		"addressRegion": "TX",
+		"postalCode": "79000",
+		"addressCountry": "USA"
+		},
+	"location": {
+		"@type": "Place",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "32.0000",
+			"longitude": "-132.0000"
+			}
+		},
+	"areaServed": [{
+		"@type": "City",
+		"name": ["City 5", "City 6"]			
+		}]
+	}]
+}
+</script>
