@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+    "@type": "WebSite",
+    "@id": "https://wordlift.io/blog/en/#website",
+    "url": "https://wordlift.io/blog/en/",
+    "name": "WordLift Blog",
+    "description": "SEO made simple",
+    "publisher": {
+        "@id": "https://wordlift.io/blog/en/#organization"
+    },
+    "potentialAction": [
+        {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://wordlift.io/blog/en/?s={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    ],
+    "inLanguage": "en-US"
+}
+</script>
