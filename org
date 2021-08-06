@@ -1,0 +1,62 @@
+<script type="application/ld+json">
+{
+    "@type": "Organization",
+    "@id": "https://erudite.agency/#organization",
+    "name": "Erudite Agency Ltd",
+    "url": "https://erudite.agency/",
+    "sameAs": [
+        "https://www.facebook.com/erudite.agency/",
+        "https://www.instagram.com/erudite.agency/",
+        "https://www.linkedin.com/company/258832/",
+        "https://twitter.com/EruditeAgency"
+    ],
+    "logo": {
+        "@type": "ImageObject",
+        "@id": "https://erudite.agency/#logo",
+        "inLanguage": "en-US",
+        "url": "https://erudite.agency/wp-content/uploads/2020/09/erudite-purple-logo.jpg",
+        "contentUrl": "https://erudite.agency/wp-content/uploads/2020/09/erudite-purple-logo.jpg",
+        "width": 1280,
+        "height": 366,
+        "caption": "Erudite Agency Ltd"
+    },
+    "image": {
+        "@id": "https://erudite.agency/#logo"
+    },
+    "telephone": "+44 (0) 1256 384890",
+    "email": "contact@erudite.agency",
+    "contactPoint": {
+        "@type": "PostalAddress",
+        "addressCountry": "GB",
+        "addressLocality": "Herriard",
+        "addressRegion": "Hampshire",
+        "postalCode": "RG25 2PH",
+        "streetAddress": "Opus House Stables, Manor Court",
+        "@id": "https://erudite.agency#PostalAddress"
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@type": "WebSite",
+    "@id": "https://erudite.agency/#website",
+    "url": "https://erudite.agency/",
+    "name": "Erudite",
+    "description": "Technical Marketing Specialists",
+    "publisher": {
+        "@id": "https://erudite.agency/#organization"
+    },
+    "potentialAction": [
+        {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://erudite.agency/?s={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    ],
+    "inLanguage": "en-US"
+}
+</script>
