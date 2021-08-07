@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+{
+    "@type": "Article",
+    "@id": "https://rubenmerino.com/blog/experimento-seo-title/#article",
+    "isPartOf": {
+        "@id": "https://rubenmerino.com/blog/experimento-seo-title/#webpage"
+    },
+    "author": {
+        "@id": "https://rubenmerino.com/#/schema/person/1e47a3f6b8c519cd06cdc165455e44c8"
+    },
+    "headline": "Experimento SEO para tener un title y description optimizados",
+    "datePublished": "2018-06-29T09:07:28+00:00",
+    "dateModified": "2020-11-12T20:49:58+00:00",
+    "mainEntityOfPage": {
+        "@id": "https://rubenmerino.com/blog/experimento-seo-title/#webpage"
+    },
+    "commentCount": 17,
+    "publisher": {
+        "@id": "https://rubenmerino.com/#/schema/person/1e47a3f6b8c519cd06cdc165455e44c8"
+    },
+    "image": {
+        "@id": "https://rubenmerino.com/blog/experimento-seo-title/#primaryimage"
+    },
+    "articleSection": "Blog",
+    "inLanguage": "es",
+    "potentialAction": [
+        {
+            "@type": "CommentAction",
+            "name": "Comment",
+            "target": [
+                "https://rubenmerino.com/blog/experimento-seo-title/#respond"
+            ]
+        }
+    ]
+}
+</script>
