@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+    "@type": "Person",
+    "@id": "https://albertofdez.com/#/schema/person/50838d781bec477a58c303d3a85be4a4",
+    "name": "Alberto Fernández",
+    "image": {
+        "@type": "ImageObject",
+        "@id": "https://albertofdez.com/#personlogo",
+        "inLanguage": "es",
+        "url": "https://secure.gravatar.com/avatar/14e965a15a9e1b0fb92ae34a66bf1e82?s=96&d=mm&r=g",
+        "contentUrl": "https://secure.gravatar.com/avatar/14e965a15a9e1b0fb92ae34a66bf1e82?s=96&d=mm&r=g",
+        "caption": "Alberto Fernández"
+    }
+}
+</script>
