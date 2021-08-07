@@ -1,0 +1,27 @@
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org/",
+    "@type": "Review",
+    "author": "Miguel",
+    "itemReviewed": {
+        "@type": "ProfessionalService",
+        "image": "https://albertofdez.com/wp-content/themes/albertofdez/img/logo-ingenieroseo.jpg",
+        "name": "AlbertoFdez",
+        "telephone": "910757649",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Coslada",
+            "addressRegion": "Madrid",
+            "postalCode": "28822",
+            "streetAddress": "C/ la Mancha nº 1 oficina 2.2 ed. Michelin"
+        }
+    },
+    "description": "Me prometieron aumentar las ventas de mi empresa y lo han conseguido; he tenido que contratar a más gente para la venta online porque no dabamos a basto con la cantidad de pedidos que nos hacen.",
+    "reviewRating": {
+        "@type": "Rating",
+        "bestRating": "100%",
+        "ratingValue": "100%",
+        "worstRating": "0%"
+    }
+}
+</script>
