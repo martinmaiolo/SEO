@@ -1,0 +1,39 @@
+User-agent: *
+Disallow: /wp-
+Allow: /wp-content/uploads/
+Allow: /wp-content/themes
+Allow: /wp-content/plugins
+Allow: /wp-includes
+Allow: /wp-json/
+
+Disallow: *.xls$
+Disallow: /?s=
+Disallow: /?ref=
+Disallow: /?attachment_id=
+Disallow: /feed
+Disallow: */feed
+Disallow: /comments/feed
+Disallow: /feed/$
+Disallow: /*/feed/$
+Disallow: /*/feed/rss/$
+Disallow: /*/trackback/$
+Disallow: /*/*/feed/$
+Disallow: /*/*/feed/rss/$
+Disallow: /*/*/trackback/$
+Disallow: /*/*/*/feed/$
+Disallow: /*/*/*/feed/rss/$
+Disallow: /*/*/*/trackback/$
+Disallow: /*/attachment/*
+Disallow: /*/*/attachment/*
+Disallow: /author/
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+Sitemap: https://albertofdez.com/post-sitemap.xml
+Sitemap: https://albertofdez.com/page-sitemap.xml
+Sitemap: https://albertofdez.com/ecode_tool-sitemap.xml
+Sitemap: https://albertofdez.com/category-sitemap.xml
