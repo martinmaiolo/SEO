@@ -1,0 +1,116 @@
+<script type="application/ld+json">
+{
+    "@type": "Organization",
+    "@id": "https://www.bayard.esc.edu.ar/#organization",
+    "name": "Colegio Bayard",
+    "url": "https://www.bayard.esc.edu.ar/",
+    "sameAs": [],
+    "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.bayard.esc.edu.ar/#logo",
+        "inLanguage": "es",
+        "url": "https://bayard.esc.edu.ar/wp-content/uploads/logo-fondo-blanco-rgb.jpg",
+        "width": 2275,
+        "height": 918,
+        "caption": "Colegio Bayard"
+    },
+    "image": {
+        "@id": "https://www.bayard.esc.edu.ar/#logo"
+    }
+}
+</script>
+
+________________________
+
+<script type="application/ld+json">
+{
+    "@type": "ImageObject",
+    "@id": "https://www.bayard.esc.edu.ar/institucional/nuestra-historia/#primaryimage",
+    "inLanguage": "es",
+    "url": "https://bayard.esc.edu.ar/wp-content/uploads/institucional-historia-destacado-01.jpg"
+}
+</script>
+
+_______________________
+
+<script type="application/ld+json">
+{
+    "@type": "WebSite",
+    "@id": "https://www.bayard.esc.edu.ar/#website",
+    "url": "https://www.bayard.esc.edu.ar/",
+    "name": "Colegio Bayard",
+    "description": "Colegio",
+    "publisher": {
+        "@id": "https://www.bayard.esc.edu.ar/#organization"
+    },
+    "potentialAction": [
+        {
+            "@type": "SearchAction",
+            "target": "https://www.bayard.esc.edu.ar/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    ],
+    "inLanguage": "es"
+}
+</script>
+
+____________________
+
+<script type="application/ld+json">
+{
+    "@type": "Article",
+    "@id": "https://rubenmerino.com/blog/experimento-seo-title/#article",
+    "isPartOf": {
+        "@id": "https://rubenmerino.com/blog/experimento-seo-title/#webpage"
+    },
+    "author": {
+        "@id": "https://rubenmerino.com/#/schema/person/1e47a3f6b8c519cd06cdc165455e44c8"
+    },
+    "headline": "Experimento SEO para tener un title y description optimizados",
+    "datePublished": "2018-06-29T09:07:28+00:00",
+    "dateModified": "2020-11-12T20:49:58+00:00",
+    "mainEntityOfPage": {
+        "@id": "https://rubenmerino.com/blog/experimento-seo-title/#webpage"
+    },
+    "commentCount": 17,
+    "publisher": {
+        "@id": "https://rubenmerino.com/#/schema/person/1e47a3f6b8c519cd06cdc165455e44c8"
+    },
+    "image": {
+        "@id": "https://rubenmerino.com/blog/experimento-seo-title/#primaryimage"
+    },
+    "articleSection": "Blog",
+    "inLanguage": "es",
+    "potentialAction": [
+        {
+            "@type": "CommentAction",
+            "name": "Comment",
+            "target": [
+                "https://rubenmerino.com/blog/experimento-seo-title/#respond"
+            ]
+        }
+    ]
+}
+</script>
+
+_____________________
+
+<script type="application/ld+json">
+{
+    "@type": "Person",
+    "@id": "https://albertofdez.com/#/schema/person/50838d781bec477a58c303d3a85be4a4",
+    "name": "Alberto Fernández",
+    "image": {
+        "@type": "ImageObject",
+        "@id": "https://albertofdez.com/#personlogo",
+        "inLanguage": "es",
+        "url": "https://secure.gravatar.com/avatar/14e965a15a9e1b0fb92ae34a66bf1e82?s=96&d=mm&r=g",
+        "contentUrl": "https://secure.gravatar.com/avatar/14e965a15a9e1b0fb92ae34a66bf1e82?s=96&d=mm&r=g",
+        "caption": "Alberto Fernández"
+    }
+}
+</script>
+
+_____________________
+
+
