@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Dentist",
+    "name": "Superior Cosmetic & Family Dentistry",
+    "url": "https://www.superior-dentistry.com/",
+    "logo": "https://cdn-blhic.nitrocdn.com/LkzRzBmTiWYYtwdMQYjqXsUgKgYRuBbm/assets/static/optimized/rev-6c3da17/wp-content/uploads/2021/02/Superior_logo-190x110.png",
+    "image": "https://cdn-blhic.nitrocdn.com/LkzRzBmTiWYYtwdMQYjqXsUgKgYRuBbm/assets/static/optimized/rev-6c3da17/wp-content/uploads/2021/03/Superior-Cosmetic-Family-Dentistry__Group-Shots-09-1536x1229.jpg",
+    "description": " We proudly service the Bowie, MD area and pride ourselves on offering the best dental services in this area. Please contact us today for all of your dental needs.",
+    "address": {
+        "streetAddress": "3231 Superior Ln #A4",
+        "addressLocality": "Bowie",
+        "addressRegion": "Maryland",
+        "postalCode": "20715",
+        "telephone": "(301) 464-2323"
+    },
+    "geo": {
+        "latitude": "38.97893",
+        "longitude": "-76.7322968",
+        "@type": "GeoCoordinates"
+    },
+    "openingHours": "Mo 0900-1700 Tu 0900-1700 We 0900-1700 Th 0900-1700 Fr 0900-1700",
+    "makesOffer": {
+        "areaServed": {
+            "address": {
+                "addressLocality": "Bowie",
+                "@type": "PostalAddress",
+                "addressRegion": "Maryland",
+                "postalCode": "20715",
+                "addressCountry": "United States"
+            },
+            "@type": "GeoShape"
+        },
+        "@type": "Offer"
+    },
+    "hasMap": "https://maps.google.com/?cid=8763416502379489836",
+    "additionalType": "http://productontology.org/id/Dentist"
+}
+</script>
