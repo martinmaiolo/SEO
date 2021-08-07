@@ -1,0 +1,28 @@
+<script type="application/ld+json">
+{
+    "@type": "Article",
+    "headline": "Wasabi Theme | La Mejor Plantilla WordPress SEO, Afiliados y AdSense",
+    "datePublished": "2021-02-28T18:52:31+01:00",
+    "dateModified": "2021-03-02T23:48:33+01:00",
+    "author": {
+        "@type": "Person",
+        "name": "Wasabi Team"
+    },
+    "publisher": {
+        "@id": "https://wasabitheme.com/#organization"
+    },
+    "description": "Wasabi Theme es la mejor plantilla WordPress para SEO, creación y monetización de nichos AdSense y Afiliación (Amazon, eBay, Aliexpress). Sin plugins.",
+    "name": "Wasabi Theme | La Mejor Plantilla WordPress SEO, Afiliados y AdSense",
+    "@id": "https://wasabitheme.com/#richSnippet",
+    "isPartOf": {
+        "@id": "https://wasabitheme.com/#webpage"
+    },
+    "image": {
+        "@id": "https://wasabitheme.com/wp-content/uploads/seo.svg"
+    },
+    "inLanguage": "es",
+    "mainEntityOfPage": {
+        "@id": "https://wasabitheme.com/#webpage"
+    }
+}
+</script>
