@@ -1,0 +1,115 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.sweetwater.com/#organization",
+    "@type": "Organization",
+    "name": "Sweetwater",
+    "url": "https://www.sweetwater.com/",
+    "logo": "https://media.sweetwater.com/api/i/f-png__h-112__q-70__ha-1bfd4518cf2cb3fc__hmac-524f2f5ef1f387106fba9a2ec88441d95f68767c/header/logo/sweetwater-logo.png",
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4700",
+            "contactType": "customer service",
+            "availableLanguage": [
+                "English"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4700",
+            "contactType": "technical support",
+            "availableLanguage": [
+                "English"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4700",
+            "contactType": "billing support",
+            "availableLanguage": [
+                "English"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4700",
+            "contactType": "bill payment",
+            "availableLanguage": [
+                "English"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4700",
+            "contactType": "sales",
+            "availableLanguage": [
+                "English"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4700",
+            "contactType": "package tracking",
+            "availableLanguage": [
+                "English"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4701",
+            "contactType": "customer service",
+            "availableLanguage": [
+                "Spanish"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4701",
+            "contactType": "technical support",
+            "availableLanguage": [
+                "Spanish"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4701",
+            "contactType": "billing support",
+            "availableLanguage": [
+                "Spanish"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4701",
+            "contactType": "bill payment",
+            "availableLanguage": [
+                "Spanish"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4701",
+            "contactType": "sales",
+            "availableLanguage": [
+                "Spanish"
+            ]
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-222-4701",
+            "contactType": "package tracking",
+            "availableLanguage": [
+                "Spanish"
+            ]
+        }
+    ],
+    "sameAs": [
+        "http://www.facebook.com/pages/Sweetwater-Sound",
+        "http://www.youtube.com/user/SweetwaterSound",
+        "http://www.instagram.com/sweetwatersound",
+        "http://www.twitter.com/sweetwatersound",
+        "https://www.linkedin.com/company/sweetwater/"
+    ]
+}
+</script>
