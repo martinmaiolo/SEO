@@ -1,0 +1,46 @@
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "reviewRating": {
+        "@type": "Rating",
+        "worstRating": "1.0",
+        "ratingValue": "4",
+        "bestRating": "5.0",
+        "@id": "http://google.com/resource/RatingGoogle4",
+        "name": "Google Rating 4"
+    },
+    "reviewBody": [
+        "Excellant product and service from Schema App! Their support from on boarding to troubleshooting has helped me deploy their product to my clients quickly. Looking forward to working with them long term.",
+        "I am relatively new to working with Hunch Manifest. So far, i have to say its tremendous.  I am learning a great deal, Martha is an excellent trainer.  My past websites paled in comparison to the one Hunch manifest was able to put together for me. I actually expect to increase my business  a great deal because I am working with Hunch manifest.  They  keep it simple for me, and they ensure I understand before moving forward.   I am really pleased.  ",
+        "I am very happy to have found Schema App.  The step by step process, the easy to follow tutorial videos take the guess work out of adding Schema markup to my websites. It is a very thorough application that covers an incredible array of business types, products, services, as well as business information such as hours, location, images. When I have questions, the answers are just an email away - the replies are always courteous, helpful and always provide a solutions And the most important thing... the SEO results really do make a difference",
+        "Schema markup can be extremely confusing and frustrating if you are just starting out...but Martha & Mark was extremely helpful and patient in helping me get a better grasp of how schema should be added for a company with multiple locations. Their tutorial videos cover almost every aspect of adding schema to your site and they respond to any questions via email within a timely manner. If you are currently using their free version, I would highly suggest buying in the $97 support package - it's definitely worth the investment!"
+    ],
+    "about": [
+        "https://en.wikipedia.org/wiki/Schema.org",
+        "https://schema.org"
+    ],
+    "itemReviewed": "https://www.schemaapp.com/",
+    "description": "Sample Reviews from Google",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "worstRating": "0",
+        "url": "https://www.google.ca/search?rlz=1C1SQJL_enCA795CA795&ei=w1oMW4zBLYWVjwSfkqaADQ&q=hunch+manifest&oq=hunch+manifest&gs_l=psy-ab.3..0i67k1j0j0i8i30k1j38.8081.8081.0.8508.1.1.0.0.0.0.99.99.1.1.0....0...1c.1.64.psy-ab..0.1.97....0.0Z4tINLusxE#lrd=0x882b9ace07c2f85b:0x885c26ca0b870d4a,1,,,",
+        "reviewCount": 20,
+        "ratingValue": "4.7",
+        "bestRating": "5"
+    },
+    "publisher": "http://dev.schemaapp.com/2016/07/required-schema-org-fields/#publisher",
+    "url": "https://www.schemaapp.com/",
+    "author": [
+        "https://www.hunchmanifest.com/#OrganizationOrPerson2",
+        "https://www.hunchmanifest.com/#OrganizationOrPerson1",
+        "https://www.hunchmanifest.com/#OrganizationOrPerson",
+        "https://www.hunchmanifest.com/#OrganizationOrPerson3"
+    ],
+    "name": "Google Review",
+    "datePublished": "2018-05-28T00:00:00+0000",
+    "inLanguage": "en-US",
+    "@id": "https://www.hunchmanifest.com/#Review"
+}
+</script>
