@@ -1,0 +1,193 @@
+<script type="application/ld+json">
+{
+    "@type": "WebSite",
+    "@id": "https://www.hunchmanifest.com/#website",
+    "url": "https://www.hunchmanifest.com/",
+    "name": "Hunch Manifest Inc",
+    "description": "",
+    "potentialAction": [
+        {
+            "@type": "SearchAction",
+            "target": "https://www.hunchmanifest.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    ],
+    "inLanguage": "en-US"
+}
+</script>
+_______________________________
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "reviewRating": {
+        "@type": "Rating",
+        "worstRating": "1.0",
+        "ratingValue": "4",
+        "bestRating": "5.0",
+        "@id": "http://google.com/resource/RatingGoogle4",
+        "name": "Google Rating 4"
+    },
+    "reviewBody": [
+        "Excellant product and service from Schema App! Their support from on boarding to troubleshooting has helped me deploy their product to my clients quickly. Looking forward to working with them long term.",
+        "I am relatively new to working with Hunch Manifest. So far, i have to say its tremendous.  I am learning a great deal, Martha is an excellent trainer.  My past websites paled in comparison to the one Hunch manifest was able to put together for me. I actually expect to increase my business  a great deal because I am working with Hunch manifest.  They  keep it simple for me, and they ensure I understand before moving forward.   I am really pleased.  ",
+        "I am very happy to have found Schema App.  The step by step process, the easy to follow tutorial videos take the guess work out of adding Schema markup to my websites. It is a very thorough application that covers an incredible array of business types, products, services, as well as business information such as hours, location, images. When I have questions, the answers are just an email away - the replies are always courteous, helpful and always provide a solutions And the most important thing... the SEO results really do make a difference",
+        "Schema markup can be extremely confusing and frustrating if you are just starting out...but Martha & Mark was extremely helpful and patient in helping me get a better grasp of how schema should be added for a company with multiple locations. Their tutorial videos cover almost every aspect of adding schema to your site and they respond to any questions via email within a timely manner. If you are currently using their free version, I would highly suggest buying in the $97 support package - it's definitely worth the investment!"
+    ],
+    "about": [
+        "https://en.wikipedia.org/wiki/Schema.org",
+        "https://schema.org"
+    ],
+    "itemReviewed": "https://www.schemaapp.com/",
+    "description": "Sample Reviews from Google",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "worstRating": "0",
+        "url": "https://www.google.ca/search?rlz=1C1SQJL_enCA795CA795&ei=w1oMW4zBLYWVjwSfkqaADQ&q=hunch+manifest&oq=hunch+manifest&gs_l=psy-ab.3..0i67k1j0j0i8i30k1j38.8081.8081.0.8508.1.1.0.0.0.0.99.99.1.1.0....0...1c.1.64.psy-ab..0.1.97....0.0Z4tINLusxE#lrd=0x882b9ace07c2f85b:0x885c26ca0b870d4a,1,,,",
+        "reviewCount": 20,
+        "ratingValue": "4.7",
+        "bestRating": "5"
+    },
+    "publisher": "http://dev.schemaapp.com/2016/07/required-schema-org-fields/#publisher",
+    "url": "https://www.schemaapp.com/",
+    "author": [
+        "https://www.hunchmanifest.com/#OrganizationOrPerson2",
+        "https://www.hunchmanifest.com/#OrganizationOrPerson1",
+        "https://www.hunchmanifest.com/#OrganizationOrPerson",
+        "https://www.hunchmanifest.com/#OrganizationOrPerson3"
+    ],
+    "name": "Google Review",
+    "datePublished": "2018-05-28T00:00:00+0000",
+    "inLanguage": "en-US",
+    "@id": "https://www.hunchmanifest.com/#Review"
+}
+</script>
+
+___________________________
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://www.hunchmanifest.com/#breadcrumbitem",
+                "name": "Hunch Manifest Inc"
+            }
+        }
+    ]
+}
+</script>
+
+________________________
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "naics": "519130",
+    "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "opens": "09:00:54",
+        "name": "Opening Hours",
+        "dayOfWeek": [
+            "Wednesday",
+            "Tuesday",
+            "Thursday",
+            "Monday",
+            "Friday"
+        ],
+        "closes": "17:00:58",
+        "@id": "https://www.hunchmanifest.com#OpeningHoursSpecification/"
+    },
+    "email": "info@hunchmanifest.com",
+    "url": "https://www.hunchmanifest.com/",
+    "telephone": "+1 855 444 8624",
+    "logo": [
+        {
+            "@type": "ImageObject",
+            "width": "156",
+            "url": "https://www.hunchmanifest.com/wp-content/themes/servicedathome/images/HunchManifestLogo_sm.png",
+            "height": "75",
+            "@id": "https://www.hunchmanifest.com/wp-content/themes/servicedathome/images/HunchManifestLogo_sm.png"
+        },
+        "https://www.hunchmanifest.com/wp-content/themes/servicedathome/images/HunchManifestLogo_sm.png"
+    ],
+    "description": "Hunch Manifest is an internet marketing technology company that provides online presence and semantic search marketing services to clients in North America.",
+    "sameAs": [
+        "https://twitter.com/hunchmanifest",
+        "https://plus.google.com/+HunchManifestIncGuelph",
+        "https://www.linkedin.com/company/hunch-manifest/"
+    ],
+    "geo": {
+        "@type": "GeoCoordinates",
+        "name": "Geo",
+        "longitude": "-80.248096",
+        "latitude": "43.545032",
+        "@id": "https://www.hunchmanifest.com#GeoShapeOrGeoCoordinates/"
+    },
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "15 Wyndham Street North, Suite C",
+        "postalCode": "N1H 4E4",
+        "addressRegion": "Ontario",
+        "addressLocality": "Guelph",
+        "addressCountry": "Canada"
+    },
+    "name": "Hunch Manifest",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "worstRating": "1",
+        "url": "https://www.google.ca/search?rlz=1C1SQJL_enCA795CA795&ei=w1oMW4zBLYWVjwSfkqaADQ&q=hunch+manifest&oq=hunch+manifest&gs_l=psy-ab.3..0i67k1j0j0i8i30k1j38.8081.8081.0.8508.1.1.0.0.0.0.99.99.1.1.0....0...1c.1.64.psy-ab..0.1.97....0.0Z4tINLusxE#lrd=0x882b9ace07c2f85b:0x885c26ca0b870d4a,1,,,",
+        "reviewCount": 20,
+        "ratingValue": "4.7",
+        "bestRating": "5"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "width": "400",
+        "url": "https://www.hunchmanifest.com/wp-content/uploads/2014/01/SchemaEditor.gif",
+        "height": "304",
+        "@id": "https://www.hunchmanifest.com/wp-content/uploads/2014/01/SchemaEditor.gif"
+    },
+    "alternateName": "Hunch Manifest Inc",
+    "foundingDate": "2011-06-27T00:00:00+0000",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1 866-444-8624",
+        "name": [
+            "Contact Us",
+            "Toll Free"
+        ],
+        "availableLanguage": "https://en.wikipedia.org/wiki/English_language",
+        "areaServed": [
+            "https://en.wikipedia.org/wiki/Earth",
+            "https://en.wikipedia.org/wiki/United_States",
+            "https://en.wikipedia.org/wiki/Canada"
+        ],
+        "contactOption": "TollFree",
+        "contactType": "customer support",
+        "email": "info@hunchmanifest.com",
+        "url": "https://www.hunchmanifest.com/contact-us/",
+        "@id": "https://www.hunchmanifest.com/contact-us/"
+    },
+    "@id": "https://www.hunchmanifest.com/"
+}
+</script>
+
+______________________
+
+<script type="application/ld+json">
+{
+    "@type": "ImageObject",
+    "@id": "https://www.hunchmanifest.com/#primaryimage",
+    "inLanguage": "en-US",
+    "url": "https://www.hunchmanifest.com/wp-content/uploads/2014/03/HunchManifestLogo_sm.png",
+    "width": 200,
+    "height": 96
+}
+</script>
