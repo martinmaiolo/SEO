@@ -1,0 +1,22 @@
+solucionar-multiple-h1-wordpress
+
+<?php if(is_home() || is_front_page()) {?>
+ <hgroup>
+ <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" 
+title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" 
+rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+ <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+ </hgroup>
+ <?php } else { ?>
+” title=”” rel=”home”>
+</div> <?php } ?>
+
+<?php if ( is_single() ) : ?>
+ <h1 class="entry-title"><?php the_title(); ?></h1>
+ <?php
+ else : ?>
+ //modificar aqui <h1> por <h2>
+ <h2 class="entry-title">
+ <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
+ </h2>
+ <?php endif; // is_single() ?>
