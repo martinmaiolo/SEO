@@ -1,0 +1,140 @@
+User-agent: *
+Disallow: /wp-login
+Disallow: /wp-admin
+Disallow: //wp-includes/
+Disallow: /*/feed/
+Disallow: /*/trackback/
+Disallow: /author/
+Disallow: /*/page/
+Disallow: /*/feed/
+Disallow: /tag/*/page/
+Disallow: /tag/*/feed/
+Disallow: /page/
+Disallow: /comments/
+Disallow: /xmlrpc.php
+Disallow: /*/*/*/feed.xml
+Disallow: /politica-cookies/
+Disallow: /ca/gracies/
+Disallow: /ca/gracies-suscriute/
+Disallow: /ca/gracies-serveis/
+Disallow: /ca/gracies-oferta/
+Disallow: /ca/gracies-formacio/
+Disallow: /ca/gracies-faq/
+Disallow: /ca/gracies-client/
+Disallow: /ca/politica-de-privacitat/
+Disallow: /gracias/
+Disallow: /gracias-suscribete/
+Disallow: /gracias-faq/
+Disallow: /gracias-cliente/
+Disallow: /gracias-formacion/
+Disallow: /gracias-servicios/
+Disallow: /gracias-oferta/
+Disallow: /politica-de-privacidad/ 
+Disallow: /dev/*/
+Disallow: /dev/
+Disallow: /old_web/
+Disallow: /firma-email/
+Disallow: /firma-email/*/
+Disallow: /blog/cliente/hotel-arc-la-rambla-2/
+Disallow: /blog/cliente/salpe-packaging-bcn/
+Disallow: /blog/cliente/natur-farmacia-2/
+Disallow: /blog/cliente/ontranslation/
+Disallow: /blog/cliente/espai-escola-dinformatica/
+Disallow: /blog/cliente/kmax-keratin-maximization/
+Disallow: /blog/cliente/gheos-proyecto-natural-2/
+Disallow: /blog/cliente/luis-portillo-camacho/
+Disallow: /blog/cliente/reset-reciclaje-informatico-electronico/
+Disallow: /blog/cliente/grupo-jf-stands/
+Disallow: /blog/cliente/mister-traster-2/
+
+User-agent: Orthogaffe
+Disallow: /
+
+User-agent: UbiCrawler
+Disallow: /
+
+User-agent: DOC
+Disallow: /
+
+User-agent: Zao
+Disallow: /
+
+# Some bots are known to be trouble, particularly those designed to copy
+
+# entire sites. Please obey robots.txt.
+
+User-agent: sitecheck.internetseer.com
+Disallow: /
+
+User-agent: Zealbot
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Fetch
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: linko
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Microsoft.URL.Control
+Disallow: /
+
+User-agent: Xenu
+Disallow: /
+
+User-agent: larbin
+Disallow: /
+
+User-agent: libwww
+Disallow: /
+
+User-agent: ZyBORG
+Disallow: /
+
+User-agent: Download Ninja
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: grub-client
+Disallow: /
+
+Sitemap: https://www.welovewebs.com/sitemap.xml
+Sitemap: https://welovewebs.com/sitemap_index.xml
+Sitemap: https://welovewebs.com/post-sitemap.xml
+Sitemap: https://welovewebs.com/page-sitemap.xml
+Sitemap: https://welovewebs.com/proyecto-sitemap.xml
+Sitemap: https://welovewebs.com/servicio-sitemap.xml
+Sitemap: https://welovewebs.com/formacion-sitemap.xml
+Sitemap: https://welovewebs.com/category-sitemap.xml
+Sitemap: https://welovewebs.com/post_tag-sitemap.xml
+
+
+################
