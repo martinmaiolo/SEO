@@ -1,0 +1,120 @@
+<script>
+//Cambiar title al ir a otra tab
+jQuery(document).ready(function () {
+titleCameBack();
+});  function titleCameBack() {
+  jQuery(function () {
+    var message = "Â¡Vuelve pronto a Verde Saludable!";
+    var original;
+    jQuery(window).focus(function () {
+      if (original) {
+       document.title = original;
+    } }).blur(function () {
+var title = jQuery('title').text();
+if (title != message) {
+original = title;
+}
+document.title = message;
+});
+});
+}
+
+</script>
+
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+function custom_override_checkout_fields( $fields ) {
+
+    $fields['shipping']['custom_field'] = array(
+        'label' => 'Custom field',
+        'required' => 1,
+        'class' => array ('address-field', 'update_totals_on_change' )
+    );
+
+    return $fields;
+} 
+
+
+<script type="application/ld+json" class="rank-math-schema">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": [
+                "Person",
+                "Organization"
+            ],
+            "@id": "https://www.davidayala.com/#person",
+            "name": "David Ayala",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.davidayala.com/wp-content/uploads/2021/01/miniatura-david-ayala.jpg"
+            },
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.davidayala.com/wp-content/uploads/2021/01/miniatura-david-ayala.jpg"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.davidayala.com/#website",
+            "url": "https://www.davidayala.com",
+            "name": "David Ayala",
+            "publisher": {
+                "@id": "https://www.davidayala.com/#person"
+            },
+            "inLanguage": "es",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.davidayala.com/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://www.davidayala.com/#primaryImage",
+            "url": "https://www.davidayala.com/wp-content/uploads/2021/01/miniatura-david-ayala.jpg",
+            "width": 600,
+            "height": 338
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://www.davidayala.com/#webpage",
+            "url": "https://www.davidayala.com/",
+            "name": "David Ayala - La web del SEO Rosa en DavidAyala.com",
+            "datePublished": "2020-10-21T16:49:17+00:00",
+            "dateModified": "2021-09-10T13:27:38+00:00",
+            "isPartOf": {
+                "@id": "https://www.davidayala.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://www.davidayala.com/#primaryImage"
+            },
+            "inLanguage": "es"
+        },
+        {
+            "@type": "Article",
+            "headline": "David Ayala - La web del SEO Rosa en DavidAyala.com",
+            "datePublished": "2020-10-21T16:49:17+00:00",
+            "dateModified": "2021-09-10T13:27:38+00:00",
+            "author": {
+                "@type": "Person",
+                "name": "David Ayala"
+            },
+            "publisher": {
+                "@id": "https://www.davidayala.com/#person"
+            },
+            "description": "Descubre quien es David Ayala, el autor del libro Visibilidad Online Inmortaliza tu Marca y cofundador de las agencias de Marketing Sock Data y Globsia.",
+            "@id": "https://www.davidayala.com/#richSnippet",
+            "isPartOf": {
+                "@id": "https://www.davidayala.com/#webpage"
+            },
+            "image": {
+                "@id": "https://www.davidayala.com/#primaryImage"
+            },
+            "inLanguage": "es",
+            "mainEntityOfPage": {
+                "@id": "https://www.davidayala.com/#webpage"
+            }
+        }
+    ]
+}</script>
