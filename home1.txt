@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Neuronas Creativas - Agencia Digital",
+    "url": "https://neuronascreativas.com/?fbclid=IwAR0RnLR-N6RNwI_y6I-6U1LMa2mFC5k5rZQ14vxjB_7K94kBhR5NrhNg23g",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 8,
+        "bestRating": 5,
+        "worstRating": 1
+    }
+}
+</script>
