@@ -1,0 +1,33 @@
+<script type="application/ld+json">
+{
+    "@context": "http://www.schema.org",
+    "@type": "ProfessionalService",
+    "name": "A1 SEO Glasgow",
+    "priceRange": "£££",
+    "telephone": "0141 846 1296",
+    "url": "https://www.a1seoglasgow.co.uk",
+    "logo": "https://www.a1seoglasgow.co.uk/wp-content/uploads/2021/01/a1_seo_logo.png",
+    "image": "https://www.a1seoglasgow.co.uk/wp-content/uploads/2021/01/Office-1024x512.jpg",
+    "description": "A1 SEO Glasgow is a Glasgow based marketing agency that specialises in search engine optimisation. We are passionate about no-nonsense SEO campaigns that deliver robust, long-lasting return on investment.",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "22 Montrose St",
+        "addressLocality": "Glasgow",
+        "addressRegion": "Lanarkshire",
+        "postalCode": "G413YE",
+        "addressCountry": "United Kingdom"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "55.86030134518407",
+        "longitude": "-4.2454725998336915"
+    },
+    "hasMap": "https://www.google.com/maps?cid=3294852557623963043",
+    "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "0141 846 1296",
+        "contactType": "Office"
+    }
+}
+</script>
